@@ -10,13 +10,13 @@ An existential problem for any major website today is how to handle toxic and di
 
 For furthur details on problem statement and dataset, refer the link:-https://www.kaggle.com/c/quora-insincere-questions-classification
 
-Objective:-
+**Objective**:-
 
 To build a model that classifies the given question as sincere or insincere using deep learning.
 
-Steps:-
+**Steps**:-
 
-1.Understanding and gaining some insights from the given data.
+1.**Understanding and gaining some insights from the given data:-**
 
 a)Check for any null values
 
@@ -26,7 +26,7 @@ c)Check for misspelled words
 
 d)Understand the Class distribution
 
-2.Data Wrangling 
+2.**Data Wrangling:-** 
 
 a)Convert the text to lower case
 
@@ -36,15 +36,15 @@ c)Dealing with special characters and punctuations
 
 d)Manual correction of most frequently misspelled words
 
-3.Embeddings 
+3.**Embeddings** 
 
 There are 2 ways to deal with embeddings:-
 
-a)Pretrained embeddings :- GoogleNews-vectors-negative300, glove.840B.300d, paragram_300_sl999, wiki-news-300d-1M 
+a)**Pretrained embeddings** : GoogleNews-vectors-negative300, glove.840B.300d, paragram_300_sl999, wiki-news-300d-1M 
 
-b)Learning embeddings from the scratch :- word2vec, keras embedding layer
+b)**Learning embeddings from the scratch** : word2vec, keras embedding layer
 
-4.Model building:-
+4.**Model building**:-
 
 a)Neural Networks are capable of learning any non linear function of weights to map the input to output. Thats why, Neural Networks are called as Universal Function Approximators. 
 
@@ -55,7 +55,7 @@ c)Here comes RNN. But, RNN's suffer from the vanishing gradient due to which it 
 
 d)Long Short Term Memory models can capture the long range dependencies which is a shortcome of Recurrent Neural Network.
 
-5.Model evaluation:-
+5.**Model evaluation**:-
 
 a)Stratified K cross fold validation with right metric. 
 
@@ -67,15 +67,15 @@ b)In case of overfitting, introduce the regularization i.e dropouts in the neura
 
 c)Incase of underfitting, bring up the reprensentational capacity of the model.
 
-6.Hyperparameter Tuning:-
+6.**Hyperparameter Tuning**:-
 
 a)Hyperparameter optimization is the very important to boost up the performance of the model.
 
 b)Tune drop outs, No. of neurons in hidden layers, learning rate using grid search to come up with the best hyperparameter set.
 
-7.Deploy the model into production 
+7.**Deploy the model into production** 
 
-Challenges involved:-
+**Challenges involved**:-
 
 1.Data cleaning
 
