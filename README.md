@@ -1,5 +1,5 @@
 # Quora-Insincere-Question-Classification
-This repository contains all the necessary details and implementation of text classification using Deep Learning.
+This repository contains all the necessary details and implementation of Text Classification using Deep Learning.
 
 Let us solve the problem by considering one of the kaggle competitions hosted by Quora.
 
@@ -17,9 +17,13 @@ Steps:-
 
 1.Understanding and gaining some insights from the given data.
 
-a)Class distribution
+a)Any null values
+
 b)Top frequent words
-c)
+
+c)misspelled words
+
+d)Class distribution
 
 2.Data Wrangling
 
