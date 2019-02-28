@@ -11,31 +11,60 @@ For furthur details on problem statement and dataset, refer the link:-https://ww
 
 Objective:-
 
-To build a model that classifies the given question as sincere or insincere.
+To build a model that classifies the given question as sincere or insincere using deep learning.
 
-Steps:-
+Steps followed:-
 
 1.Understanding and gaining some insights from the given data.
 
-a)Any null values
+a)Check for any null values
 
-b)Top frequent words
+b)Top frequent words that leads to insincere
 
-c)misspelled words
+c)Check for misspelled words
 
-d)Class distribution
+d)Understand the Class distribution
 
-2.Data Wrangling
+2.Data Wrangling 
 
-3.Embeddings
+a)Convert the text to lower case
 
-4.Model building
+b)Contraction mapping
 
-5.Model evaluation
+c)Dealing with special characters and punctuations
+
+d)Manual correction of most frequently misspelled words
+
+3.Embeddings 
+
+There are 2 ways to deal with embeddings:-
+
+a)Pretrained embeddings :- GoogleNews-vectors-negative300, glove.840B.300d, paragram_300_sl999, wiki-news-300d-1M 
+
+b)Learning embeddings from the scratch :- word2vec, keras embedding layer
+
+4.Model building:-
+
+a)Neural Networks are capable of learning any non linear function of weights to map the input to output. Thats why, Neural Networks are called as Universal Function Approximators. 
+
+b)The problem with Neural Network is quick generalization and prediction is made by different combinations of inputs. This is a problem 
+when the prediction has to made by capturing the sequential information from the input rather than trying out different combinations of the input. 
+
+c)Here comes RNN. But, RNN's suffer from the vanishing gradient due to which it cannot learn the long term dependencies. Thats why we go with LSTMs.
+
+d)Long Short Term Memory models can capture the long range dependencies which is a shortcome of Recurrent Neural Network.
+
+5.Model evaluation:-
+
+a)Stratified K cross fold validation with right metric. 
 
 5.Diagnostic plots
 
-6.Hyperparameter Tuning
+a)Identify whether the model suffers from overfitting, underfitting or good fit with diagnostic plots(No. of epochs vs loss)
+
+6.Hyperparameter Tuning:-
+
+a)
 
 7.Build model with best Hyperparameter set.
 
