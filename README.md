@@ -1,6 +1,6 @@
 # Quora-Insincere-Question-Classification
 
-This repository contains all the necessary details and implementation of Text Classification using Deep Learning.
+This repository contains all the necessary details and implementation of classification of text using Deep Learning.
 
 Let us solve the problem by considering one of the kaggle competitions hosted by Quora.
 
@@ -12,7 +12,7 @@ For furthur details on problem statement and dataset, refer the link:-https://ww
 
 _**Objective**_:-
 
-To build a model that classifies the given question as sincere or insincere using deep learning.
+To build a model that classifies the given question as sincere or not using deep learning.
 
 _**Steps**_:-
 
