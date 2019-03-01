@@ -85,7 +85,7 @@ a) Hyperparameter optimization is the very important to boost up the performance
 
 b) Tune drop outs, No. of neurons in hidden layers, learning rate using grid search to come up with the best hyperparameter set.
 
-7.**Deploy the model into production** 
+7.**Save the model and deploy into production** 
 
 _**Challenges Involved**_:-
 
