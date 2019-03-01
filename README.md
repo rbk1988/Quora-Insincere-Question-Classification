@@ -14,6 +14,8 @@ For furthur details on problem statement and dataset, refer the link:-https://ww
 
 a)Deep learning is inspired from our human brain's neuronal structure. Human brain consists of billions of neurons interconnecte to each other. Each neuron receives the signal, processes the signa and pass it on to the other neurons. The same concept is applied here in Deep Learning.
 
+![stack Overflow](http://lmsotfy.com/so.png)
+
 b)Neural Networks are capable of learning any non linear function of weights to map the input to output. Thats why, Neural Networks are called as _**Universal Function Approximators**_. 
 
 **Why LSTM?**
