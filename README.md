@@ -14,11 +14,13 @@ For furthur details on problem statement and dataset, refer the link:-https://ww
 
 a)Deep learning is inspired from our human brain's neuronal structure. Human brain consists of billions of neurons interconnecte to each other. Each neuron receives the signal, processes the signa and pass it on to the other neurons. The same concept is applied here in Deep Learning.
 
-![Deep Learning](https://cdn-images-1.medium.com/max/1600/1*ZX05x1xYgaVoa4Vn2kKS9g.png)
-
 b)Neural Networks are capable of learning any non linear function of weights to map the input to output. Thats why, Neural Networks are called as _**Universal Function Approximators**_. 
 
+![Deep Learning](https://cdn-images-1.medium.com/max/1600/1*ZX05x1xYgaVoa4Vn2kKS9g.png)
+
 **Why LSTM?**
+
+![LSTM](https://www.altumintelligence.com/altum-site/altum-intelligence/public/assets/time-series-prediction-using-lstm-deep-neural-networks/lstm_cell.png)
 
 a) The problem with Neural Network is quick generalization and prediction is made by different combinations of inputs. This is a problem 
 when the prediction has to made by capturing the sequential information from the input rather than trying out different combinations of the input. 
