@@ -16,11 +16,11 @@ a)Deep learning is inspired from our human brain's neuronal structure. Human bra
 
 b)Neural Networks are capable of learning any non linear function of weights to map the input to output. Thats why, Neural Networks are called as _**Universal Function Approximators**_. 
 
+c)In traditonal machine learning algorithms, Feature extraction is very important prior to the model building. Extracting most appropriate features one by one requires domain knowledge and time consuming! Here comes the Deep Learning! 
+
 ![Deep Learning](https://cdn-images-1.medium.com/max/1600/1*ZX05x1xYgaVoa4Vn2kKS9g.png)
 
 **Why LSTM?**
-
-![LSTM](https://www.altumintelligence.com/altum-site/altum-intelligence/public/assets/time-series-prediction-using-lstm-deep-neural-networks/lstm_cell.png)
 
 a) The problem with Neural Network is quick generalization and prediction is made by different combinations of inputs. This is a problem 
 when the prediction has to made by capturing the sequential information from the input rather than trying out different combinations of the input. 
@@ -28,6 +28,8 @@ when the prediction has to made by capturing the sequential information from the
 b) Here comes RNN. But, RNN's suffer from the vanishing gradient due to which it cannot learn the long term dependencies. Thats why we go with LSTMs.
 
 c) __Long Short Term Memory models__ can capture the long range dependencies which is a shortcome of Recurrent Neural Network.
+
+![LSTM](https://www.altumintelligence.com/altum-site/altum-intelligence/public/assets/time-series-prediction-using-lstm-deep-neural-networks/lstm_cell.png)
 
 _**Objective**_:-
 
@@ -59,9 +61,9 @@ d) Manual correction of most frequently misspelled words
 
 There are 2 ways to deal with embeddings:-
 
-a) **Pretrained embeddings** : GoogleNews-vectors-negative300, glove.840B.300d, paragram_300_sl999, wiki-news-300d-1M 
+a) _Pretrained embeddings_ : GoogleNews-vectors-negative300, glove.840B.300d, paragram_300_sl999, wiki-news-300d-1M 
 
-b) **Learning embeddings from the scratch** : word2vec, keras embedding layer
+b) _Learning embeddings from the scratch_ : word2vec, keras embedding layer
 
 4.**Model building**
 
@@ -100,6 +102,8 @@ https://www.kaggle.com/sbongo/do-pretrained-embeddings-give-you-the-extra-edge
 https://machinelearningmastery.com/dropout-regularization-deep-learning-models-keras/
 
 https://www.kaggle.com/sudalairajkumar/a-look-at-different-embeddings
+
+https://machinelearningmastery.com/grid-search-hyperparameters-deep-learning-models-python-keras/
 
 
 
