@@ -84,8 +84,11 @@ _**References**_:
 Thanks to the below links which helped me with this one.
 
 http://colah.github.io/posts/2015-08-Understanding-LSTMs/
+
 https://www.kaggle.com/sbongo/do-pretrained-embeddings-give-you-the-extra-edge
+
 https://machinelearningmastery.com/dropout-regularization-deep-learning-models-keras/
+
 https://www.kaggle.com/sudalairajkumar/a-look-at-different-embeddings
 
 
