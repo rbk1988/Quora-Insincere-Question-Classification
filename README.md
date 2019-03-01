@@ -12,7 +12,7 @@ For furthur details on problem statement and dataset, refer the link:-https://ww
 
 **Why Deep Learning?**
 
-a)Deep learning is inspired from our human brain's neuronal structure. Human brain consists of billions of neurons interconnecte to each other. Each neuron receives the signal, processes the signa and pass it on to the other neurons. The same concept is applied here in Deep Learning.
+a)Deep learning is inspired from our human brain's neuronal structure. Human brain consists of billions of neurons interconnecte to each other. Each neuron receives the signal, processes the signal and pass it on to the other neurons. The same concept is applied here in Deep Learning.
 
 b)Neural Networks are capable of learning any non linear function of weights to map the input to output. Thats why, Neural Networks are called as _**Universal Function Approximators**_. 
 
@@ -37,7 +37,7 @@ To build a model that classifies the given question as sincere or not using deep
 
 _**Steps**_:-
 
-1.**Understanding and gaining some insights from the given data:-**
+1.**Understanding and Gaining some insights from the given data**
 
 a) Check for any null values
 
