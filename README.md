@@ -10,6 +10,21 @@ An existential problem for any major website today is how to handle toxic and di
 
 For furthur details on problem statement and dataset, refer the link:-https://www.kaggle.com/c/quora-insincere-questions-classification
 
+**Why Deep Learning?**
+
+a)Deep learning is inspired from our human brain's neuronal structure. Human brain consists of billions of neurons interconnecte to each other. Each neuron receives the signal, processes the signa and pass it on to the other neurons. The same concept is applied here in Deep Learning.
+
+b)Neural Networks are capable of learning any non linear function of weights to map the input to output. Thats why, Neural Networks are called as _**Universal Function Approximators**_. 
+
+**Why LSTM?**
+
+a) The problem with Neural Network is quick generalization and prediction is made by different combinations of inputs. This is a problem 
+when the prediction has to made by capturing the sequential information from the input rather than trying out different combinations of the input. 
+
+b) Here comes RNN. But, RNN's suffer from the vanishing gradient due to which it cannot learn the long term dependencies. Thats why we go with LSTMs.
+
+c) __Long Short Term Memory models__ can capture the long range dependencies which is a shortcome of Recurrent Neural Network.
+
 _**Objective**_:-
 
 To build a model that classifies the given question as sincere or not using deep learning.
@@ -44,16 +59,7 @@ a) **Pretrained embeddings** : GoogleNews-vectors-negative300, glove.840B.300d, 
 
 b) **Learning embeddings from the scratch** : word2vec, keras embedding layer
 
-4.**Model building**:-
-
-a) Neural Networks are capable of learning any non linear function of weights to map the input to output. Thats why, Neural Networks are called as _**Universal Function Approximators**_. 
-
-b) The problem with Neural Network is quick generalization and prediction is made by different combinations of inputs. This is a problem 
-when the prediction has to made by capturing the sequential information from the input rather than trying out different combinations of the input. 
-
-c) Here comes RNN. But, RNN's suffer from the vanishing gradient due to which it cannot learn the long term dependencies. Thats why we go with LSTMs.
-
-d) __Long Short Term Memory models__ can capture the long range dependencies which is a shortcome of Recurrent Neural Network.
+4.**Model building**
 
 5.**Model evaluation**:-
 
